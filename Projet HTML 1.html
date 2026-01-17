@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Projet HTML RockstarGames</title>
+</head>
+<body>
+   <body style="background-image: url('backgroundRG.jpg'); background-size: cover;"> <!--image arrière plan-->
+
+<audio controls loop>
+    <source src="gta-theme.mp3" type="audio/mpeg"></audio> <!--audio theme Rockstar Games-->
+
+    <header>
+        <h1><big><div style="text-align: center;">ROCKSTAR GAMES</big></h1>
+    </header>
+
+<br><br>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>  
+<br><br>  
+
+<!-- SECTION HOME -->
+<section id="home">
+    <H2><u>Welcome and Push Your limit</u></H2>
+    <p>Découvrez le monde de Rockstar Games</p>
+    <div style="text-align: center;"><img src="rockstar-logo.jpg" alt="Rockstar Games" width="400" height="400"><img src="GTAIVlogo.jpg" alt="Rockstar Games" width="400" height="400"><span><img src="RDDlogo.jpg" alt="Rockstar Games" width="400"height="400"></div></span>
+    <div style="text-align: center;"><img src="GTAVIlogo.jpg" alt="Rockstar Games" width="600" height="400"></div>
+
+<br><br><br>
+
+<!-- SECTION ABOUT -->
+<section id="about">
+     <H2> <u> A PROPOS </u> </H2>
+    <p>Rockstar Games est un éditeur de jeux video fondé en 1998 par Sam Houser et Dan Houser, Terry Donovan, Jamie King et Gary Foreman</p>
+    
+<!-- SECTION WORK -->
+<section id="work">
+
+    <H2>Nos Jeux</H2>  
+    <table> 
+        
+        <caption>
+        <big><b>Goat Games</big></b> 
+        </caption>
+
+        <thead>
+        <tr>
+            <th>Jeu</th>
+            <th>Année de sortie</th>
+            <th>Ventes</th>
+        </tr>
+        </thead>
+
+        <thead>
+            <tbody>
+                <tr>
+                    <td>GTA IV</td>
+                    <td>2008</td>
+                    <td>25 Millions</td>
+                </tr>
+                <tr>
+                    <td>GTA V</td>
+                    <td>2013</td>
+                    <td>220 Millions</td>
+                </tr>
+                 <tr>
+                    <td>Red Dead Redemption 1</td>
+                    <td>2010</td>
+                    <td>20 Millions</td>
+                </tr>
+                    <td>Red Dead Redemption 2</td>
+                    <td>2018</td>
+                    <td>75 Millions</td>
+                </tr>
+            </tbody>
+        </thead>
+       
+    </table>
+</section>
+
+<br><br><br>
+
+<!-- SECTION RESUME -->
+<section id="resume">
+    <H2> <u> Notre Histoire </u> </H2>
+    <p>Créée en 1998 à New York par Sam et Dan Houser avec Terry Donovan, Jamie King et Gary Foreman, comme label “haut de gamme” de Take‑Two Interactive. Très vite, Rockstar rachète le studio britannique DMA Design (devenu Rockstar North), récupère la série Grand Theft Auto et se fait connaître mondialement avec GTA 3, Vice City et San Andreas, qui imposent le modèle du monde ouvert moderne.
+<br>Au fil des années 2000 et 2010, Rockstar enchaîne les gros succès narratifs et polémistes : GTA IV, Red Dead Redemption, L.A. Noire, Max Payne 3, puis les phénomènes GTA V et Red Dead Redemption 2 qui deviennent parmi les jeux les plus vendus et récompensés de l’histoire. Aujourd’hui, le studio est vu comme un spécialiste de jeux cinématographiques, à gros budget, centrés sur des univers adultes détaillés et des scénarios ambitieux</p>
+    <b>
+        <li>1998 - Création de Rockstar Games</li>
+        <li>2013 - GTA V devient le jeu le plus rentable</li>
+        <li>2018 - Red Dead Redemption 2 devient le jeu le plus vendu</li>
+        <li>2024 - Annonce du jeux le plus attendus de tous les temps GTA VI</li>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VQRLujxTm3c?si=o3AGyYryrtlCK4sh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </ul>
+</section>
+
+<br><br><br>
+
+
+<!-- SECTION CONTACT -->
+<section id="contact">
+    <H2> <u> Contactez-Nous </u> </H2>
+    <form>
+        <label nom>Nom Complet :</label><br>
+        <input type="text" name="Nom" placeholder="Votre nom complet" /><br><br>
+        <label nom>E mail :</label><br>
+        <input type="text" name="Nom" placeholder="Votre@Email" /><br><br>
+         <label nom>Telephone :</label><br>
+        <input type="text" name="Nom" placeholder="06 19 20 21 22" /><br><br>
+        <label nom>Message :</label><br>
+        <textarea name="message" rows="5" cols="30" placeholder="votre message ici..."></textarea><br><br>
+        <input type="submit" value="Envoyer" />
+    </form>
+
+            <p>Comment nous avez-vous connu ?</p>
+            <input type="radio" id="ami" name="source" value="ami">
+            <label for="ami">Un ami</label><br>
+            
+            <input type="radio" id="recherche" name="source" value="recherche">
+            <label for="recherche">Recherche Google</label><br>
+            
+            <input type="radio" id="pub" name="source" value="publicite">
+            <label for="pub">Publicité</label><br><br>
+            
+            <!-- Bouton d'envoi -->
+            <input type="submit" value="Envoyer">
+            
+            <!-- Bouton de réinitialisation -->
+            <input type="reset" value="Réinitialiser">
+
+            <br><br>
+
+            <a href="https://www.rockstargames.com/" target="_blank">Visitez le site officiel de Rockstar Games</a>
+
+
+</section>
+
+
+<footer>
+    <p>&copy; 2024 Rockstar Games. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
