@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Rockstar Games - Portfolio</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="rockstar-logo.png" alt="Rockstar Games" width="300">
+        <h1>Rockstar Games</h1>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECTION HOME -->
+    <section id="home">
+        <h2>Bienvenue</h2>
+        <p>Découvrez l'univers de Rockstar Games</p>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <section id="about">
+        <h2>À propos</h2>
+        <p>Rockstar Games a été fondée en 1998 par Sam Houser et Dan Houser...</p>
+    </section>
+
+    <!-- SECTION WORK -->
+    <section id="work">
+        <h2>Nos Jeux</h2>
+        <table>
+            <tr>
+                <th>Jeu</th>
+                <th>Année</th>
+                <th>Détails</th>
+            </tr>
+            <tr>
+                <td>GTA V</td>
+                <td>2013</td>
+                <td><a href="#gta5">Voir plus</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- SECTION RESUME -->
+    <section id="resume">
+        <h2>Notre Histoire</h2>
+        <ul>
+            <li>1998 - Création de Rockstar Games</li>
+            <li>2013 - GTA V devient le jeu le plus rentable</li>
+        </ul>
+    </section>
+
+    <!-- SECTION CONTACT avec FORMULAIRE -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        
+        <!-- 👇 C'EST ICI LE FORMULAIRE HTML (HTML Forms) -->
+        <form action="/submit" method="POST">
+            
+            <!-- Champ Nom -->
+            <label for="nom">Nom complet :</label><br>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required><br><br>
+            
+            <!-- Champ Email -->
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" placeholder="votre@email.com" required><br><br>
+            
+            <!-- Champ Téléphone -->
+            <label for="tel">Téléphone :</label><br>
+            <input type="tel" id="tel" name="tel" placeholder="06 12 34 56 78"><br><br>
+            
+            <!-- Menu déroulant (Sujet) -->
+            <label for="sujet">Sujet :</label><br>
+            <select id="sujet" name="sujet">
+                <option value="">-- Choisir --</option>
+                <option value="support">Support technique</option>
+                <option value="carrieres">Carrières</option>
+                <option value="presse">Presse</option>
+                <option value="autre">Autre</option>
+            </select><br><br>
+            
+            <!-- Zone de texte (Message) -->
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="6" cols="50" placeholder="Votre message..."></textarea><br><br>
+            
+            <!-- Cases à cocher -->
+            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+            <label for="newsletter">Je souhaite recevoir la newsletter</label><br><br>
+            
+            <!-- Boutons radio -->
+            <p>Comment nous avez-vous connu ?</p>
+            <input type="radio" id="ami" name="source" value="ami">
+            <label for="ami">Un ami</label><br>
+            
+            <input type="radio" id="recherche" name="source" value="recherche">
+            <label for="recherche">Recherche Google</label><br>
+            
+            <input type="radio" id="pub" name="source" value="publicite">
+            <label for="pub">Publicité</label><br><br>
+            
+            <!-- Bouton d'envoi -->
+            <input type="submit" value="Envoyer">
+            
+            <!-- Bouton de réinitialisation -->
+            <input type="reset" value="Réinitialiser">
+            
+        </form>
+        
+        <!-- Coordonnées de l'entreprise -->
+        <h3>Nos coordonnées</h3>
+        <p><strong>Adresse :</strong> 622 Broadway, New York, NY 10012, USA</p>
+        <p><strong>Email :</strong> info@rockstargames.com</p>
+        <p><strong>Téléphone :</strong> +1 (212) 334-6633</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Rockstar Games, Inc. - 622 Broadway, New York, NY 10012</p>
+        <p>© 2026 Rockstar Games. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
